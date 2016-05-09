@@ -152,19 +152,6 @@ body {
 
 * {font-family: 'helvetica';}
 
-path {
-  stroke: #001F66;
-  stroke-width: 5px;
-  fill: none;
-}
-#symbol {
-  margin: -0.5rem 0 -0.5rem -0.5rem;
-  height: 5.5rem;
-  width: 5.5rem;
-}
-.short {
-  line-height: 2rem;
-}
 h1,
 h2,
 .large {
@@ -194,14 +181,6 @@ p {
   position: fixed;
   display: none;
 }
-#fixer {
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  display: none;
-}
 ::selection {
   background: #FF1944;
   color: #001F66;
@@ -210,59 +189,7 @@ p {
   background: #FF1944;
   color: #001F66;
 }
-.go {
-  opacity: 1;
-  top: 0px;
-}
-.short {
-  transition-duration: .01s, 1s;
-  transition-delay: 2s, 2s;
-  transition-timing-function: cubic-bezier(.8,.02,.2,.99), cubic-bezier(.2,0,.21,.99);
-  transition-property: stroke-dashoffset, -webkit-transform;
-  stroke-dasharray: 41 41;
-  stroke-dashoffset: 41;
-  -webkit-transform-origin: 50px 50px;
-}
-.long {
-  transition-duration: .75s, 1s;
-  transition-delay: 1s, 1.5s;
-  transition-timing-function: cubic-bezier(.8,.02,.2,.99), cubic-bezier(.15,1.54,.35,1);
-  transition-property: stroke-dashoffset, -webkit-transform;
-  stroke-dasharray: 61 61;
-  stroke-dashoffset: 61;
-  -webkit-transform-origin: 50px 50px;
-}
-.from_ul {
-  -webkit-transform: translate(-7.07px,-7.07px);
-}
-.from_ur {
-  -webkit-transform: translate(7.07px,-7.07px);
-}
-.from_lr {
-  -webkit-transform: translate(7.07px,7.07px);
-}
-.from_ll {
-  -webkit-transform: translate(-7.07px,7.07px);
-}
-.cw {
-  -webkit-transform: rotate(45deg);
-}
-.ccw {
-  -webkit-transform: rotate(-45deg);
-}
-.ring {
-  stroke-dasharray: 236 236;
-  stroke-dashoffset: 236;
-  transition-duration: 1s;
-  transition-delay: 0s;
-  transition-timing-function: cubic-bezier(.8,.02,.2,.99);
-  -webkit-transform: rotate(180deg);
-  -webkit-transform-origin: 50px 50px;
-}
-.go path {
-  stroke-dashoffset: 0;
-  -webkit-transform: rotate(0deg);
-}
+
 .mobile-only {
   display: none;
 }
@@ -403,8 +330,7 @@ p {
 
 			<div class="row" >
 				<div class="col8 pre3">
-					<a class="desktop-only" href="mailto:jessica.inchauspe@gmail.com">Email</a>
-					<a class="mobile-only" href="mailto:jessica.inchauspe@gmail.com">Email</a>
+					<a href="mailto:jessica.inchauspe@gmail.com">Email</a>
 					<a href="http://uk.linkedin.com/pub/jessica-inchauspe/33/765/62b/">Linkedin</a>
 					<a href="https://twitter.com/jessie_inc_">Twitter</a>
 				</div>
@@ -412,7 +338,6 @@ p {
       <div class="row" >
       </div>
 
-			<div class="clear"></div>
 
 		</div>
 	</body>
